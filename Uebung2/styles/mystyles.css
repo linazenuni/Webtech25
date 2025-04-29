@@ -1,0 +1,61 @@
+/* Ganze Seite: Schriftart Verdana */
+/* Hintergrund im body weiß*/
+body {
+    font-family: Verdana, sans-serif;
+    background-color: white;
+}
+
+/* Header: HTW-Grau Hintergrund, HTW-Orange Schrift, Text zentriert */
+header {
+    background-color: #B1B3B3; /* HTW-Grau */
+    height:auto;
+    padding: 20px;
+    color: #FF7900; /* HTW-Orange */
+    text-align: center;
+}
+
+/* Tabelle: Rahmen, Schatten, Spaltenüberschrift weiß auf grünem Hintergrund */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 5px grey;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #007A33; /* HTW-Grün */
+    color: white;
+}
+
+/* Navigation: a-Elemente im nav-Element */
+nav a {
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #005AA7; /* HTW-Blau */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Mouseover-Effekt bei Links im nav */
+nav a:hover {
+    background-color: #B1B3B3; /* HTW-Grau */
+    color: #FF7900; /* HTW-Orange */
+}
+
+/* Footer: HTW-Orange Hintergrund, schwarzer Text, kleiner und mittig, mit Padding */
+footer {
+    background-color: #FF7900; /* HTW-Orange */
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
