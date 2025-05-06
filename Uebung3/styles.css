@@ -1,0 +1,43 @@
+header {
+    grid-column: 1 / 5 ; /* Streckt den Header über alle Spalten */
+    background-color: #4CAF50; /* Grüner Hintergrund */
+    color: white; /* Weiße Schrift */
+    text-align: center; /* Zentrierter Text */
+    padding: 20px 1; /* Etwas Innenabstand oben und unten */
+    border-radius: 5px; /* Abgerundete Ecken */
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 gleich breite Spalten */
+    grid-template-rows: repeat(3, 1fr); /* 3 gleich hohe Reihen */
+    gap: 60px; /* Abstand zwischen den Bildern */
+}
+
+.citycard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    height: 220px; /* Alle Karten gleich hoch */
+  }
+
+  .cityimage {
+    height: 120px; /* Einheitliche Höhe für alle Bildbereiche */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cityimage img {
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+
